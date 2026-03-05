@@ -23,7 +23,6 @@ export default function ErrorFallback({ error, resetErrorBoundary }) {
                 borderRadius: '6px',
                 textAlign: 'left',
                 fontSize: '12px',
-                color: '#d32f2f',
                 overflowX: 'auto'
             }}>
                 {error.message}
